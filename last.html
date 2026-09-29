@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all{
+            background-color: rgb(181, 201, 101);
+            border: solid 2px;
+            border-radius: 5px;
+        }
+        body{
+            line-height: 2;
+           
+        }
+        input{
+            border-radius: 7px;
+        }
+        input:hover{
+            background-color: rgba(161, 39, 39, 0.358);
+        }
+        .hd{
+            nav{
+                display: flex;
+                background-color: rgb(122, 173, 156);
+            }
+            ul{
+                display: flex;
+                gap: 60px;
+            }
+            li{
+                list-style: none;
+            
+                
+            }
+            li:hover{
+                background-color: rgba(136, 66, 202, 0.629);
+                border-radius: 10px;
+
+            }
+        }
+        button{
+            background-color: rgba(62, 237, 3, 0.719);
+            padding: 8px;
+            box-shadow: 2px 3px 10px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 19px;
+            margin-left: 205px;
+            
+        }
+        button:hover{
+                background-color: chocolate;
+                padding: 12px;
+            }
+        .footer{
+            
+            background-color:rgb(122, 173, 156);
+            padding: 10px;
+            ul{
+                display: flex;
+                gap: 20px;
+            }
+            li{
+                list-style: none;
+                
+            }
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 2px;
+        }
+        th, td {
+            border: 1px solid #232339;
+            padding: 8px;
+            text-align: center;
+            
+        }
+        th {
+            background-color: #4141ce;
+            color: #e0d4cf;
+        }
+        tr{
+            background-color: rgb(183, 210, 210);
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+    <div class="hd">
+    <nav>
+        <h3>Softronics</h3>
+        <ul>
+            <li>Home</li>
+            <li>Courses</li>
+            <li>Gallery</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    </div>
+    <form action="">
+        
+        <label for="text">Name</label>
+        <input type="text" placeholder="Enter Your Name"><br>
+        <label for="">E mail</label>
+        <input type="text" placeholder="Enter Your Email"><br>
+        <label for="password">Password</label>
+        <input type="password" placeholder="password"><br>
+       <b> Gender</b> <br>
+        <label for="radio">male</label>
+        <input type="radio">
+        <label for="radio">Female</label>
+        <input type="radio"><br><br>
+         <b> Course</b>
+         <input type="text" placeholder="Enter your Course"><br>
+         <label for="">Address</label><input type="password" name="" id=""><br>
+         <button>SUBMIT</button>
+          <table>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Email</th>
+            
+        </tr>
+        <tr>
+            <td>135</td>
+            <td>John</td>
+            <td>mern</td>
+            <td>abc@gmail.com</td>
+        </tr>
+        <tr>
+            <td>136</td>
+            <td>Aseel</td>
+            <td>UX</td>
+            <td>abc@gmail.com</td>
+        </tr>
+        <tr>
+            <td>137</td>
+            <td>Jasna</td>
+            <td>Data analysis</td>
+            <td>abc@gmail.com</td> 
+        </tr>
+    </table>
+        <div class="footer">
+            <ul>
+                <li>&copy;softronics 2024</li>
+                <li>+91688498455745</li>
+                <li>softronics@gmail.com</li>
+            </ul>    
+        </div>
+        </div>
+</body>
+</html>
